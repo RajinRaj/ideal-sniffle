@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{ 
+long long t,m,n; 
+scanf("%lld",&t); 
+while(t--) 
+{ 
+scanf("%lld %lld",&m,&n); 
+printf("%lld\n",(m/3)*(n/3)); 
+}
+ return 0;
+}
